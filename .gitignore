@@ -1,0 +1,50 @@
+# Python virtual environments
+.env/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# DataHub output and logs
+elementary_output/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# CSV/Excel/Sheets exports
+*.csv
+*.xlsx
+
+# Sensitive or large files
+*.key
+*.pem
+
+# Documents and presentations
+Strategy.docx
+Presentation.pptx
+
+# Jupyter notebooks
+*.ipynb
+
+# Data files
+data/
+*.parquet
+*.json
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Copilot instructions (keep .github/copilot-instructions.md, ignore others)
+!.github/copilot-instructions.md
+.github/*.bak
+
+# Misc
+*.tmp
+*.bak
