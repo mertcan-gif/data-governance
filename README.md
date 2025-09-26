@@ -22,12 +22,6 @@ This repository provides a framework for managing, documenting, and monitoring d
 - `governance/data_catalog.md`  
   Documentation of metadata operations and cataloging strategy.
 
-- `governance/data_rules_registry.csv`  
-  (Optional) Exported spreadsheet for collaborative rule tracking and automation.
-
-- `governance/docs/data_governance_report.md`  
-  Auto-generated report summarizing data quality checks and rule compliance.
-
 ## Workflow
 
 1. **Define Rules:**  
