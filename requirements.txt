@@ -1,0 +1,6 @@
+frictionless
+snowflake-connector-python
+dotenv
+dbt-core
+apache-airflow
+acryl-datahub[datahub-rest]

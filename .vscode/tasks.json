@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Data Quality Checks",
+			"type": "shell",
+			"command": "C:/Users/mertc/OneDrive/Documenten/rns/.venv/Scripts/python.exe scripts/data_quality_checks.py",
+			"args": [],
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

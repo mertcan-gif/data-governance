@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: employees
+    description: "HR employee data table."
+    columns:
+      - name: employee_id
+        description: "Unique identifier for each employee."
+        tests:
+          - unique
+          - not_null
+      - name: email
+        description: "Corporate email address."
+        tests:
+          - unique
+          - not_null
+      - name: department
+        description: "Department assignment."
+        tests:
+          - accepted_values:
+              values: ['Engineering', 'Marketing', 'Sales', 'Finance', 'HR']

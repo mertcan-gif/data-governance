@@ -1,0 +1,35 @@
+tables:
+  - name: employees
+    description: "Contains all current and former employee data. Central table for HR analytics."
+    columns:
+      - name: employee_id
+        description: "Unique identifier for each employee."
+        rules:
+          - "Must be unique"
+          - "Must not be null"
+      - name: first_name
+        description: "Employee's legal first name."
+        rules:
+          - "Must not be null"
+      - name: last_name
+        description: "Employee's legal last name."
+        rules:
+          - "Must not be null"
+      - name: email
+        description: "Employee's corporate email address."
+        rules:
+          - "Must be a valid email format (e.g., user@company.com)"
+          - "Must be unique"
+      - name: start_date
+        description: "Official start date of employment."
+        rules:
+          - "Must not be null"
+          - "Must be a valid date"
+      - name: department
+        description: "Department the employee is assigned to."
+        rules:
+          - "Value must be one of: Engineering, Marketing, Sales, Finance, HR"
+      - name: salary
+        description: "Annual salary in USD."
+        rules:
+          - "Must be a positive number >= 30000"

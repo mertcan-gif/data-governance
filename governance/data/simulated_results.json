@@ -1,0 +1,86 @@
+[
+{
+"table": "employees",
+"column": "employee_id",
+"test_type": "unique",
+"status": "FAIL",
+"details": "Found 1 duplicate value(s)."
+},
+{
+"table": "employees",
+"column": "employee_id",
+"test_type": "not_null",
+"status": "PASS",
+"details": "All values are not null."
+},
+{
+"table": "employees",
+"column": "first_name",
+"test_type": "not_null",
+"status": "PASS",
+"details": "All values are not null."
+},
+{
+"table": "employees",
+"column": "last_name",
+"test_type": "not_null",
+"status": "PASS",
+"details": "All values are not null."
+},
+{
+"table": "employees",
+"column": "email",
+"test_type": "not_null",
+"status": "PASS",
+"details": "All values are not null."
+},
+{
+"table": "employees",
+"column": "email",
+"test_type": "unique",
+"status": "PASS",
+"details": "All values are unique."
+},
+{
+"table": "employees",
+"column": "email",
+"test_type": "format",
+"status": "FAIL",
+"details": "Found 1 value(s) with incorrect email format."
+},
+{
+"table": "employees",
+"column": "start_date",
+"test_type": "not_null",
+"status": "FAIL",
+"details": "Found 1 null value(s)."
+},
+{
+"table": "employees",
+"column": "department",
+"test_type": "not_null",
+"status": "PASS",
+"details": "All values are not null."
+},
+{
+"table": "employees",
+"column": "department",
+"test_type": "accepted_values",
+"status": "PASS",
+"details": "All values are in the accepted list."
+},
+{
+"table": "employees",
+"column": "salary",
+"test_type": "not_null",
+"status": "PASS",
+"details": "All values are not null."
+},
+{
+"table": "employees",
+"column": "salary",
+"test_type": "min_value",
+"status": "PASS",
+"details": "All values are above the minimum threshold."
+}
+]

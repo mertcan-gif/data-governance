@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: successfactors_source # A name for your source system
+    description: "Raw data ingested from Successfactors via an S3 stage."
+    database: raw_db # The database where your raw data lands
+    schema: successfactors
+    
+    tables:
+      - name: raw_employees
+        description: "Raw employee data feed, updated daily."
+        columns:
+          - name: employee_id
+            description: "The unique employee identifier from Successfactors."
+          - name: full_name
+            description: "Employee's full name."
+          - name: status
+            description: "Current employment status."

@@ -1,0 +1,8 @@
+employee_id,first_name,last_name,email,start_date,department,salary
+101,John,Doe,john.doe@abccorp.com,2022-01-15,Engineering,90000
+102,Jane,Smith,jane.smith@abccorp.com,2021-03-22,Marketing,75000
+103,Peter,Jones,peter.jones@abccorp.com,,Sales,82000
+104,Mary,Williams,mary.w@abccorp.com,2023-07-01,Engineering,110000
+105,David,Brown,david.brown@abccorp.com,2020-11-10,Finance,95000
+101,Chris,Green,chris.green@abccorp.com,2023-09-01,Engineering,92000
+106,Susan,Miller,susan.miller,2022-05-18,Marketing,78000
