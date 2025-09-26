@@ -169,7 +169,7 @@ def create_hr_metadata():
             entityUrn=urn,
             aspect=tags_aspect,
         )
-        emitter.emit_mcp(mcp_tags)
+        emitter.emit_mode(mcp_tags)
         print(f"Emitted tags for {urn}")
 
 

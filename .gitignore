@@ -25,8 +25,8 @@ Thumbs.db
 *.pem
 
 # Documents and presentations
-Strategy.docx
-Presentation.pptx
+strategy.docx
+presentation.pptx
 
 # Jupyter notebooks
 *.ipynb
@@ -48,3 +48,6 @@ dist/
 # Misc
 *.tmp
 *.bak
+
+# Ignore governance docs folder
+governance/docs/
